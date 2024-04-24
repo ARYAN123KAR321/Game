@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .game {
+    text-align: center;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .square {
+    font-size: 24px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .square:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .square.clicked {
+    background-color: red !important;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .win-message {
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+  }
+  
+  .tie-message {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .reset-button:hover {
+    background-color: #45a049;
+  }
+  
